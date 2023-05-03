@@ -1,0 +1,79 @@
+body {
+    font-size: 20px;
+    background-color: #B2919A;
+    padding-top: 50px;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.3s ease;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #353535;
+    text-transform: uppercase;
+  }
+  
+  /* Style the button that is used to open and close the dropdown menu */
+  .dropdown-button {
+    
+    background-color: #250938; /* Green background color */
+    color: white; /* White text color */
+    padding: 12px 20px; /* Some padding */
+    border: none; /* Remove borders */
+    cursor: pointer; /* Change cursor to pointer */
+    margin-left: 30px; /* Add margin to the left */
+    border-radius: 80px; /* Make it look like a bubble */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow */
+    }
+    
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Style links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #eaa3a3;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropdown-button {background-color: #240b43;}
+
+
+
+/*main*/
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+  }
+  
